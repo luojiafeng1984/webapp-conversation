@@ -3,9 +3,9 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: '',
-  description: '',
-  copyright: '',
+  title: '施强AI助手',
+  description: '你好，我是施强AI助手。作为你的智能伙伴，我既能写文案、想点子，又能陪你聊天、答疑解惑。',
+  copyright: '浙江施强集团有限公司',
   privacy_policy: '',
   default_language: 'zh-Hans',
 }
