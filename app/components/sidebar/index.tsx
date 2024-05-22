@@ -18,6 +18,7 @@ const MAX_CONVERSATION_LENTH = 20
 
 export type ISidebarProps = {
   copyRight: string
+  copyRight: string
   currentId: string
   onCurrentIdChange: (id: string) => void
   list: ConversationItem[]
